@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Benne', serif;
+	font-family: 'Dawning of a New Day', cursive;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#logo{
+	height: 105px;
+	width: 108px;
+}
+
+#menu {
+	border-top: 1px solid #D2C1AC;
+	border-bottom: 1px solid #D2C1AC;
+	margin-top: 15px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul {
+	padding: 10px 0;
+}
+
+#menu li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 25px;
+}
+
+#menu a {
+	color: #000000;
+	font-size: 1.5em;
+	font-family: 'Benne', serif;
+}
+
+#menu a:hover, #footer-links a:hover {
+	color: #926F3B;
+}
+
+main {
+	background-image: url("../images/main-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 200px 0;
+}
+
+h1 {
+	font-family: 'Benne', serif;
+	font-size: 4em;
+	line-height: 1;
+	font-weight: normal;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1;
+}
+
+footer {
+	background-color: #543E30;
+	font-size: 1.2em;
+	font-family: 'Benne', serif;
+	padding: 20px 10px;
+}
+
+#footer-links {
+	display: inline;
+}
+
+#footer-links li{
+	display: inline;
+	padding: 0 10px;
+}
+
+#footer-links a {
+	color: #FFFFFF;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+#copyright {
+	float: right;
+	color: #FFFFFF;
+	padding-right: 15px;
+}
+
+
+
+

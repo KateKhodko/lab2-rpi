@@ -1,0 +1,82 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+#tip-box-wrapper {
+    width: 400px;
+    background-color: #5c4637;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+#tip-box {
+    background-color: #D2C1AC;
+    margin: 10px;
+}
+
+#tips-header {
+    padding: 20px 0;
+    font: 2em 'Benne', serif;
+    line-height: 1;
+    text-align: center;
+    margin: 0;
+}
+
+#tip-info {
+    padding: 0 20px 10px 20px;
+    text-align: center;
+    font: 2.1em 'Dawning of a New Day', cursive;
+    line-height: 1;
+    margin: 0;
+}
+
+#cross {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+}
+
+#slider, #disable-label {
+    display: inline-block;
+}
+
+#disable-label {
+    font: 400 1.4em 'Benne', serif;
+}
+
+#slider {
+    text-align: center;
+    padding-left: 60px;
+}
+
+#tip-box-dots {
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.dot {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+#prev-tip-button, #next-tip-button {
+    font-size: 13px;
+}
+
+.dot:hover, #prev-tip-button:hover, #next-tip-button:hover, #cross:hover {
+    color: #b38a5b;
+}
+
+#next-tip-button {
+    margin-left: 10px;
+}
+
+#disable-checkbox {
+    margin-left: 10px;
+}
