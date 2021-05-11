@@ -23,7 +23,7 @@ function init() {
     }
     printDots();
     update();
-    setTimeout(() => tipBox.tipBoxWrapper.hidden = false, 5);
+    setTimeout(() => tipBox.tipBoxWrapper.hidden = false, 5000);
 }
 
 function printDots() {
